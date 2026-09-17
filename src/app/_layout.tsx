@@ -36,6 +36,15 @@ export default function RootLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="galeria"
+        options={{
+          title: 'Galería',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="cart-outline" size={size} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
